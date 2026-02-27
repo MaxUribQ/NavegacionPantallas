@@ -21,7 +21,7 @@
             android:name=".Pantalla2"
             android:exported="false" />
         <activity
-            android:name=".Pantalla1"
+            android:name=".Datos"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

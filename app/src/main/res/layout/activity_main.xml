@@ -2,35 +2,44 @@
 <LinearLayout
     android:id="@+id/main"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="16dp">
 
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cómputo Móvil"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#4A3F8F"
+        android:layout_marginBottom="24dp"/>
+
     <Button
         android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ir a Pagina 1" />
+        android:text="Ingresar Datos" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ir a Página 2" />
+        android:text="Página 2" />
 
     <Button
         android:id="@+id/btn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ir a Pagina 3" />
+        android:text="Pagina 3" />
 
     <Button
         android:id="@+id/btn4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ir a Pagina 4" />
+        android:text="Pagina 4" />
 
 </LinearLayout>
