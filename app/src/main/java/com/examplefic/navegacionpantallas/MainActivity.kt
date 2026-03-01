@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btn2.setOnClickListener {
-            val intent = Intent(this, Pantalla2::class.java)
+            val intent = Intent(this, resultado::class.java)
             startActivity(intent)
         }
 
